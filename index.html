@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User List</title>
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+  <div id="app">
+    <form action="#" id="user">
+      <input type="text" name="user_name" id="input_text">
+      <button type="submit" class="add-btn" disabled> Add </button>
+      <div class="info">
+        <small style="color: red;">Error! Add more information.</small>
+      </div>
+      <div class="limit">
+        <small style="color: red;">Sorry, you can only add ten users to this list.</small>
+      </div>
+    </form>
+
+    <ul id="list"></ul>
+
+    <script src="./js/main.js"></script>
+  </div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+form {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.info, .limit {
+  position: absolute;
+  top: 20px;
+}
+
+.limit {
+  display: none;
+}
