@@ -1,4 +1,4 @@
-// HOMEWORK#10 USER LIST
+// HOMEWORK#10 - USER LIST
 // 1. Добавить текст ошибки (дописывать <small>Error</small> || alert())
 // 2. Проверять, можно ли еще добавить пользователя
 //      a. лимит - 10шт.
@@ -38,9 +38,9 @@ list.forEach((el, index) => {
 
 const $form = document.querySelector('form#user');
 const $input = $form.querySelector('input[name="user_name"]');
-const $btn = document.querySelector('button[type="submit"]');
-const $info = document.querySelector('.info');
-const $limit = document.querySelector('.limit');
+const $btn = $form.querySelector('button[type="submit"]');
+const $info = $form.querySelector('.info');
+const $limit = $form.querySelector('.limit');
 
 $input.addEventListener('input', (event) => {
   const {value} = event.target;
